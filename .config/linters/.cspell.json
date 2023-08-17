@@ -1,0 +1,26 @@
+{
+  "dictionaries": ["ops", "project"],
+  "dictionaryDefinitions": [
+    {
+      "name": "ops",
+      "path": "../dictionaries/ops.txt",
+      "addWords": false
+    },
+    {
+      "name": "project",
+      "path": "../dictionaries/project.txt",
+      "addWords": true
+    }
+  ],
+  "ignorePaths": [
+    "**/.config/linters/**",
+    "**/.git/**",
+    "**/.gitattributes",
+    "**/.gitignore",
+    "**/*megalinter*",
+    "**/LICENSE"
+  ],
+  "language": "en",
+  "noConfigSearch": true,
+  "version": "0.2"
+}

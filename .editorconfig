@@ -29,3 +29,9 @@ trim_trailing_whitespace = false
 ### Special spacing for bullet points
 [LICENSE]
 indent_size = 3
+
+
+### Make require tabs
+[Makefile]
+indent_style = tab
+indent_size = 4

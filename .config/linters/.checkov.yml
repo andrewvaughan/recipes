@@ -1,0 +1,13 @@
+# This is based on the default Megalinter configuration with some additions
+#
+# Note that the only addition to the default file is to skip `CKV2_GHA_1`, which throws a warning if any GitHub workflow
+# requests `write-all` for permissions. It seems that, at time of writing, there is an error with checkov, as this error
+# is being thrown when this is not the case. Ideally, this should be turned on again when this is rectified.
+#
+# @link https://github.com/oxsecurity/megalinter/blob/main/TEMPLATES/.checkov.yml
+#
+
+quiet: true
+skip-check:
+  - CKV_DOCKER_2
+  - CKV2_GHA_1

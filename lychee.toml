@@ -1,0 +1,41 @@
+##
+# Lychee URL checking is extremely slow at times - these config options aim to speed it up as much as possible, while
+# also enforcing better security practices.
+#
+# Note - there is currently a bug in Lychee and/or Megalinter so that the `lychee.toml` configuration cannot be put in
+# the `.config/linters` folder with other configurations; as such, this must remain on the project root until that is
+# rectified. See details, here:
+#
+# @link https://github.com/oxsecurity/megalinter/issues/2866
+#
+
+# Unset to use as many threads as available on the system
+# threads = 2
+
+# Only retry dead links once
+max_retries = 1
+
+# Increased from the default of 14
+max_concurrency = 40
+
+# Decreased from the default of 20
+timeout = 5
+
+# Decreased from the default of 2
+retry_wait_time = 1
+
+
+### Security Enforcements
+
+# Fail if an invalid TLS is encountered
+insecure = false
+
+# Require that all URLs are HTTPS
+require_https = true
+
+# Don't test local github targets that may not be pushed to remote yet (except for gists)
+exclude = [ '.*github\.com.*' ]
+include = [ 'gist\.github\.com.*' ]
+
+# Exclude all reserved local IPs, Loopback, etc
+exclude_all_private = true
