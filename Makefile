@@ -11,10 +11,14 @@ endif
 
 ### Primary targets
 
-.PHONY: all test test-lint clean
+.PHONY: all prettier test test-lint clean
 
 
 all: test
+
+
+prettier:
+	npx prettier -w ./**/*.md
 
 
 test: dependencies

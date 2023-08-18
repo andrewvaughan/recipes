@@ -17,6 +17,7 @@
     "**/.git/**",
     "**/.gitattributes",
     "**/.gitignore",
+    "**/.vscode/**",
     "**/*megalinter*",
     "**/LICENSE"
   ],

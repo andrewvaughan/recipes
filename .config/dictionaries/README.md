@@ -11,5 +11,5 @@ Additional dictionaries can be added as-needed (e.g., for translations, etc).
 
 ## References
 
-* [CSpell Custom Dictionaries](https://cspell.org/docs/dictionaries-custom/)
-* [.cspell.json](../linters/.cspell.json)
+- [CSpell Custom Dictionaries](https://cspell.org/docs/dictionaries-custom/)
+- [.cspell.json](../linters/.cspell.json)
