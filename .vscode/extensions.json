@@ -1,0 +1,11 @@
+{
+
+  // VSCode extensions recommended for this repository
+  "recommendations": [
+
+    // GitHub-style markdown previews (⌘K -> V)
+    "bierner.markdown-preview-github-styles"
+
+  ]
+
+}
