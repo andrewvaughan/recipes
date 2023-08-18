@@ -5,7 +5,6 @@ name: MegaLinter
 
 # Trigger mega-linter at every push. Action will also be visible from Pull Requests to master
 on:
-
   # Comment this line to trigger action only on pull-requests (not recommended if you don't pay for GH Actions)
   push:
 
@@ -16,7 +15,6 @@ on:
 
 # Comment env block if you do not want to apply fixes
 env:
-
   # When active, APPLY_FIXES must also be defined as environment variable
   # (in github/workflows/mega-linter.yml or other CI tool)
   APPLY_FIXES: all
@@ -32,7 +30,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-
   megalinter:
     name: MegaLinter
     runs-on: ubuntu-latest
@@ -45,7 +42,6 @@ jobs:
       pull-requests: write
 
     steps:
-
       # Git Checkout
       - name: Checkout Code
         uses: actions/checkout@v3
@@ -66,7 +62,6 @@ jobs:
         # All available variables are described in documentation
         # https://megalinter.io/configuration/
         env:
-
           # Set ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }} to validate only diff with main
           # branch
           VALIDATE_ALL_CODEBASE: true
