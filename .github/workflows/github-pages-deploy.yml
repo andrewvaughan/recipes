@@ -60,7 +60,6 @@ jobs:
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./docs
-          destination: ./docs/_site
 
       # Upload to GitHub
       - name: Upload artifact
