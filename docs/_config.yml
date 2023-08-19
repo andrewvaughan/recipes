@@ -1,6 +1,23 @@
+---
+
+# See https://github.com/pages-themes/time-machine
+remote_theme: pages-themes/time-machine@v0.2.0
+
 plugins:
   - jekyll-relative-links
+  - jekyll-remote-theme
 
 relative_links:
   enabled: true
   collections: true
+
+
+### THEME / SITE CONFIGURATIONS
+
+title: Vaughan Family Recipes
+
+description: >-
+  Various recipes for baking, cooking, drinks, and more that the Vaughan extended family shares. Please feel free to use
+  these recipes, yourself, and provide feedback on what you might change.
+
+show_downloads: false
