@@ -1,15 +1,15 @@
-# CSpell Dictionaries
+# Spelling dictionaries
 
-These `.txt` files contain various dictionaries of custom words that should be accepted by the spelling checker.
+These `.txt` files contain various dictionaries of custom words for the spell checker to accept.
 
-Two dictionaries are provided by default:
+The base project template provides two dictionaries by default:
 
 1. `ops.txt` contains words from the template controls and operations of the project
-2. `project.txt` contains words that should be accepted from the project
+2. `project.txt` contains words that the spell checker accepts from the project
 
-Additional dictionaries can be added as-needed (e.g., for translations, etc).
+Projects should add additional dictionaries, as-needed, for example, translations, e.g.
 
 ## References
 
-- [CSpell Custom Dictionaries](https://cspell.org/docs/dictionaries-custom/)
+- [Custom Dictionaries Reference](https://cspell.org/docs/dictionaries-custom/)
 - [.cspell.json](../linters/.cspell.json)

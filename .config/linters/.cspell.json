@@ -19,6 +19,7 @@
     "**/.gitignore",
     "**/.vscode/**",
     "**/*megalinter*",
+    "**/.mega-linter.yml",
     "**/LICENSE"
   ],
   "language": "en",

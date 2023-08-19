@@ -1,12 +1,11 @@
 {
-
   "recommendations": [
     "bierner.markdown-preview-github-styles",
+    "chrischinchilla.vale-vscode",
     "eamodio.gitlens",
     "DavidAnson.vscode-markdownlint",
     "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode",
     "yzhang.markdown-all-in-one"
   ]
-
 }

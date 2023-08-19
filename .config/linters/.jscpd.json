@@ -2,15 +2,16 @@
   "threshold": 0,
   "reporters": ["html", "markdown"],
   "ignore": [
-    "**/node_modules/**",
-    "**/.git/**",
-    "**/.rbenv/**",
-    "**/.venv/**",
+    "**/*.svg",
     "**/*cache*/**",
+    "**/.config/linters/vale/styles/**",
+    "**/.git/**",
     "**/.github/**",
     "**/.idea/**",
+    "**/.rbenv/**",
+    "**/.venv/**",
+    "**/node_modules/**",
     "**/report/**",
-    "**/*.svg",
     "megalinter-reports"
   ]
 }

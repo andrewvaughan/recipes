@@ -1,0 +1,5 @@
+{
+  "Exclude": [
+    "^\\.config/linters/vale/styles/"
+  ]
+}

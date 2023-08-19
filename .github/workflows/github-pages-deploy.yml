@@ -1,4 +1,15 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+##
+# Generates GitHub pages via Jekyll and deploys them to GitHub.io.
+#
+# This site is hosted at https://recipes.andrewvaughan.io via a CNAME.
+#
+# Indices for directories will be automatically generated during runtime.
+#
+# To test this workflow:
+#
+#   act -s GITHUB_TOKEN="$(gh auth token)" -j build-pages push
+#
+---
 name: Deploy GitHub pages with generated index pages
 
 on:
@@ -33,7 +44,11 @@ jobs:
         with:
           lfs: true
 
-      # TODO - Run the index generation script
+      - name: Generating index files
+        uses: actions/github-script@v6
+        with:
+          script: >
+            require("./.github/workflows/src/GenerateIndices.js");
 
       # Setup GitHub pages
       - name: Setup Pages

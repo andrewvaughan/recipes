@@ -9,3 +9,6 @@ LINTER_RULES_PATH: .config/linters
 PRINT_ALPACA: false
 SHOW_ELAPSED_TIME: true
 SHOW_SKIPPED_LINTERS: false
+
+MARKDOWN_MARKDOWNLINT_FILTER_REGEX_EXCLUDE: (\.config\/linters\/vale\/styles\/.*)
+YAML_V8R_FILTER_REGEX_EXCLUDE: (\.config\/linters\/vale\/styles\/.*)

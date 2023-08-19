@@ -18,20 +18,26 @@ all: test
 
 
 prettier:
-	npx prettier -w ./**/*.md
+	npx prettier -w .
 
 
 test: dependencies
-	act $(ACT_ARGS) --rm pull_request
+	ARTIFACT_PATH=$$(mktemp -d) && \
+		act $(ACT_ARGS) --artifact-server-path "$${ARTIFACT_PATH}" --rm pull_request && \
+		rm -rf "$${ARTIFACT_PATH}"
 
 
 test-lint: dependencies
-	act $(ACT_ARGS) --rm -j megalinter pull_request
+	ARTIFACT_PATH=$$(mktemp -d) && \
+		act $(ACT_ARGS) --artifact-server-path "$${ARTIFACT_PATH}" --rm -j megalinter pull_request && \
+		rm -rf "$${ARTIFACT_PATH}"
 
 
 clean:
 	rm -rf megalinter-reports
+	find docs/ -type f -name 'index.md' -exec rm {} +
 	-docker rmi catthehacker/ubuntu:act-latest
+	-docker rmi jdkato/vale
 
 
 ### Dependency management and helpers

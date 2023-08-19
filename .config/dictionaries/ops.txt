@@ -5,4 +5,5 @@ ifeq
 megalinter
 mktemp
 oxsecurity
+Parens
 stefanzweifel
