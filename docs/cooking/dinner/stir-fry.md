@@ -1,13 +1,39 @@
-<!-- vale Google.Acronyms = NO -->
+---
+title: Stir fry
+parent: Dinner
+grand_parent: Cooking
+---
 
 # Stir fry
+
+[Jump to Recipe](#meal-recipe){: .btn .btn-blue } [Jump to Sauce](#sauce-recipe){: .btn .btn-blue }
+
+Discovered Recipe
+{: .label .label-purple }
+
+Modified
+{: .label .label-blue }
+
+Ginger Heavy
+{: .label .label-green }
+
+Garlic Heavy
+{: .label .label-green }
+
+|            Created By             |
+| :-------------------------------: |
+| [Kristine's Kitchen Blog][source] |
 
 This is a delicious stir-fry recipe that's extremely easy to make. Once you make the sauce, you can simply chop some
 vegetables and protein, which you can also do ahead of time, and have a delicious meal ready in less than 15-minutes.
 
+Modifications from the original recipe include a reduction in ginger to better balance the sauce, and removal of red
+pepper flakes by default, as the sauce is better-balanced without the extra heat. Amounts are adjusted to better fill a
+32-ounce soup container for making bulk-sauce.
+
 ---
 
-## Stir-fry sauce
+## Sauce recipe
 
 You can, and should, make this sauce ahead of time. This allows the flavors to combine. Keep the sauce in the
 refrigerator. It's recommended to use a soup container, or similar, with a screw-on lid for storage.
@@ -31,6 +57,8 @@ _These ingredients make about 4-cups, or 32oz, of sauce._
 |  9 Cloves (1.5 TBSP)   | Garlic, Minced                    |
 |         3 TBSP         | Cornstarch                        |
 
+_Ginger is most-easily peeled with a spoon._
+
 <!-- vale Google.Parens = YES -->
 
 You can also add crushed red pepper flakes, to-taste, for a kick, but bear in mind that as these soak longer they
@@ -45,7 +73,7 @@ Generally, this amount is enough to create 9-16 servings of stir fry, or 3-4 mea
 
 ---
 
-## Stir-fry
+## Meal recipe
 
 ### Ingredients
 
@@ -56,7 +84,7 @@ Generally, this amount is enough to create 9-16 servings of stir fry, or 3-4 mea
 |  2 TBSP  | Vegetable Oil, Divided                                                                             |
 |   1 Lb   | Protein (Chicken, Shrimp, Steak, Tofu, or a mix), cubed/sliced                                     |
 |  6 Cups  | Chopped Vegetables (Broccoli, Snow Peas, Carrots, Bell Peppers, Onions, Zucchini, Asparagus, etc…) |
-|  1 Cup   | Stir-Fry Sauce                                                                                     |
+|  1 Cup   | [Stir-Fry Sauce](#sauce-recipe)                                                                    |
 | 1-2 Cups | Rice (Uncooked)                                                                                    |
 
 <!-- vale Google.Parens = YES -->
@@ -72,3 +100,7 @@ Generally, this amount is enough to create 9-16 servings of stir fry, or 3-4 mea
 7. Return the **Protein** to the wok
 8. Add 1 Cup of **Stir-Fry Sauce** and cook for 2-3 minutes, until thick
 9. Mix ingredients well in sauce and serve over **Rice**
+
+<!-- Link References -->
+
+[source]: https://kristineskitchenblog.com/stir-fry-sauce/

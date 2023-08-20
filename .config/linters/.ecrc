@@ -1,5 +1,6 @@
 {
   "Exclude": [
-    "^\\.config/linters/vale/styles/"
+    "^\\.config/linters/vale/styles/",
+    "docs/Gemfile.lock"
   ]
 }

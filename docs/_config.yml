@@ -1,23 +1,92 @@
+##
+# GitHub Pages configuration
+#
+# To run locally, make sure you install Ruby from Homebrew, if not already done (for macOS):
+#
+# https://jekyllrb.com/docs/installation/macos/
+# https://github.com/ruby/ruby/blob/30a5b94517699589f6943163cd6b92f2f6c0023f/doc/contributing/building_ruby.md
+#
+# ```zsh
+# brew install chruby ruby-install xz openssl readline libyaml zlib
+# export CONFIGURE_ARGS=""
+# for ext in openssl readline libyaml zlib; do
+#   CONFIGURE_ARGS="${CONFIGURE_ARGS} --with-$ext-dir=$(brew --prefix $ext)"
+# done
+# ruby-install ruby 3.1.3
+# echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
+# echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
+# echo "chruby ruby-3.1.3" >> ~/.zshrc # run 'chruby' to see actual version
+# source ~/.zshrc
+# ```
+#
+# Then build the site from source:
+#
+# https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#building-and-previewing-your-site-locally
+#
+# ```sh
+# cd docs
+# chruby ruby-3.1.3
+# bundle install
+# bundle exec jekyll serve
+# open https://localhost:4000
+# ```
+#
 ---
-
-# See https://github.com/pages-themes/time-machine
-remote_theme: pages-themes/time-machine@v0.2.0
+# https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#publishing-your-site-on-github-pages
+theme: just-the-docs
 
 plugins:
   - jekyll-relative-links
-  - jekyll-remote-theme
 
 relative_links:
   enabled: true
   collections: true
 
+### JEKYLL DEFAULTS
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
 
 ### THEME / SITE CONFIGURATIONS
 
-title: Vaughan Family Recipes
+title: Family Recipes
 
 description: >-
   Various recipes for baking, cooking, drinks, and more that the Vaughan extended family shares. Please feel free to use
   these recipes, yourself, and provide feedback on what you might change.
 
-show_downloads: false
+url: https://recipes.andrewvaughan.io
+
+logo: "/img/logo.png"
+
+search:
+  heading_level: 3
+  button: true
+
+callouts:
+  quote:
+    title: Quote
+    color: purple
+
+nav_external_links:
+  - title: Recipes GitHub Repo
+    url: https://github.com/andrewvaughan/recipes
+    hide_icon: false
+
+footer_content: >-
+  Copyright &copy; 2020-2023 Andrew Vaughan.<br/>
+  Licensed under a
+  <a href="https://github.com/andrewvaughan/recipes/blob/main/LICENSE" target="_blank">
+    Creative Commons Attribution Non-Commercial ShareAlike 4.0
+  </a>
+  (CC BY-NC-SA 4.0) license.
+
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/andrewvaughan/recipes"
+gh_edit_source: docs
+gh_edit_branch: "main"
+gh_edit_view_mode: "edit"

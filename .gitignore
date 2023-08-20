@@ -8,8 +8,9 @@
 ########################################################################################################################
 
 
-# Indices are automatically generated when GitHub pages is deployed; no need to create them
-index.md
+# In case someone generates the Jekyll site locally
+_site
+.jekyll-cache
 
 
 ########################################################################################################################

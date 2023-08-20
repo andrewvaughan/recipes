@@ -20,7 +20,8 @@
     "**/.vscode/**",
     "**/*megalinter*",
     "**/.mega-linter.yml",
-    "**/LICENSE"
+    "**/LICENSE",
+    "**/docs/_config.yml"
   ],
   "language": "en",
   "noConfigSearch": true,
