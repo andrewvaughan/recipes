@@ -1,5 +1,7 @@
 ### Configurations
 
+RUBY_VERSION := 3.1.3
+
 # Temporary directory for storing singleton flags
 FLAG_DIR := $(shell mktemp -d -t dep)
 
@@ -11,10 +13,17 @@ endif
 
 ### Primary targets
 
-.PHONY: all prettier test test-lint clean
+.PHONY: all local prettier test test-lint clean
 
 
-all: test
+all: local
+
+
+local:
+	@cd docs && \
+		ruby -v && \
+		bundle install && \
+		bundle exec jekyll serve & open http://localhost:4000
 
 
 prettier:
@@ -45,7 +54,7 @@ clean:
 .PHONY: dependencies
 
 
-dependencies: $(FLAG_DIR)/act
+dependencies: $(FLAG_DIR)/act $(FLAG_DIR)/ruby-$(RUBY_VERSION)
 
 
 $(FLAG_DIR)/act:
