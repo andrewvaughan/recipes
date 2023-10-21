@@ -14,7 +14,7 @@ Discovered Recipe
 Modified
 {: .label .label-blue }
 
-![Banana](https://i.gifer.com/9m9.gif)
+![Banana](img/banana-bread.gif)
 
 |             Created By             |
 | :--------------------------------: |
@@ -65,7 +65,7 @@ _These ingredients are enough for a single 9x5" loaf pan and can be easily doubl
 |              (1 tsp) 4.33g | Vanilla Extract                         |
 
 _If you really want to make this and don't have access to **Sour Cream** or **Yogurt**, add an additional 80g (⅓ Cup) of
-**Mashed Bananas**. You can also use unsweetened applesauce or pumpkin pureee.
+**Mashed Bananas**. You can also use unsweetened applesauce or pumpkin puree._
 
 <!-- vale Google.Parens = YES -->
 
