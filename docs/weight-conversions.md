@@ -1,6 +1,7 @@
 ---
 title: Weight conversions
 ---
+
 # Weight conversions
 
 The following are approximate conversions of volumes to weight for recipes that provide only volumes. Due to
@@ -14,6 +15,7 @@ environmental changes, such as humidity, it's possible for these to differ by se
 | Ingredient                     |   pinch |       ⅛ |       ¼ |       ⅓ |       ½ |       ⅔ |       ¾ |         1 |
 | :----------------------------- | ------: | ------: | ------: | ------: | ------: | ------: | ------: | --------: |
 | Baking Powder                  | `0.31g` | `0.63g` | `1.25g` | `1.67g` | `2.50g` | `3.33g` | `3.75g` | \*`5.00g` |
+| Baking Soda                    | `0.33g` | `0.75g` | `1.50g` | `2.00g` | `3.00g` | `4.00g` | `4.50g` |  †`6.00g` |
 | Bananas (Mashed)               | `0.30g` | `0.60g` | `1.20g` | `1.60g` | `2.40g` | `3.19g` | `3.59g` |   `4.79g` |
 | Butter (Unsalted)              | `0.29g` | `0.59g` | `1.18g` | `1.57g` | `2.35g` | `3.14g` | `3.53g` |   `4.71g` |
 | Cinnamon (Ground)              | `0.16g` | `0.33g` | `0.65g` | `0.87g` | `1.30g` | `1.73g` | `1.95g` |  †`2.60g` |
@@ -28,7 +30,7 @@ environmental changes, such as humidity, it's possible for these to differ by se
 | Sour Cream                     | `0.31g` | `0.63g` | `1.25g` | `1.67g` | `2.50g` | `3.33g` | `3.75g` |   `5.00g` |
 | Sugar (Brown, Packed)          | `0.29g` | `0.59g` | `1.17g` | `1.56g` | `2.34g` | `3.13g` | `3.52g` |   `4.69g` |
 | Sugar (Granulated)             | `0.27g` | `0.54g` | `1.08g` | `1.44g` | `2.17g` | `2.89g` | `3.25g` |   `4.33g` |
-| Vanilla (Extract)              |         |         |         |         |         |         |         |           |
+| Vanilla (Extract)              | `0.27g` | `0.54g` | `1.08g` | `1.44g` | `2.17g` | `2.89g` | `3.25g` | \*`4.33g` |
 | Walnuts (Chopped)              | `0.20g` | `0.39g` | `0.78g` | `1.04g` | `1.56g` | `2.08g` | `2.34g` |   `3.13g` |
 | Yogurt                         | `0.31g` | `0.63g` | `1.25g` | `1.67g` | `2.50g` | `3.33g` | `3.75g` |   `5.00g` |
 
@@ -43,6 +45,7 @@ Other equivalents:
 | Ingredient                     |       ⅛ |       ¼ |        ½ |        ¾ |          1 |
 | :----------------------------- | ------: | ------: | -------: | -------: | ---------: |
 | Baking Powder                  | `1.88g` | `3.75g` |  `7.50g` | `11.25g` |   `15.00g` |
+| Baking Soda                    | `2.25g` | `4.50g` |  `9.00g` | `13.50g` |   `18.00g` |
 | Bananas (Mashed)               | `1.80g` | `3.59g` |  `7.19g` | `10.78g` |   `14.38g` |
 | Butter (Unsalted)              | `1.77g` | `3.53g` |  `7.06g` | `10.59g` |   `14.13g` |
 | Cinnamon (Ground)              | `0.98g` | `1.95g` |  `3.90g` |  `5.85g` |    `7.80g` |
@@ -57,7 +60,7 @@ Other equivalents:
 | Sour Cream                     | `1.88g` | `3.75g` |  `7.50g` | `11.25g` |   `15.00g` |
 | Sugar (Brown, Packed)          | `1.76g` | `3.52g` |  `7.03g` | `10.55g` |   `14.06g` |
 | Sugar (Granulated)             | `1.63g` | `3.25g` |  `6.50g` |  `9.75g` | \*`13.00g` |
-| Vanilla (Extract)              |         |         |          |          |            |
+| Vanilla (Extract)              | `1.63g` | `3.25g` |  `6.50g` |  `9.75g` |   `13.00g` |
 | Walnuts (Chopped)              | `1.17g` | `2.34g` |  `4.69g` |  `7.03g` |    `9.38g` |
 | Yogurt                         | `1.88g` | `3.75g` |  `7.50g` | `11.25g` |   `15.00g` |
 
@@ -70,6 +73,7 @@ Other equivalents:
 | Ingredient                     |        ⅛ |        ¼ |         ⅓ |         ½ |         ⅔ |         ¾ |          1 |
 | :----------------------------- | -------: | -------: | --------: | --------: | --------: | --------: | ---------: |
 | Baking Powder                  | `30.00g` | `60.00g` |  `80.00g` | `120.00g` | `160.00g` | `180.00g` |  `240.00g` |
+| Baking Soda                    | `36.00g` | `72.00g` |  `96.00g` | `144.00g` | `192.00g` | `216.00g` |  `288.00g` |
 | Bananas (Mashed)               | `28.75g` | `57.50g` |  `76.67g` | `115.00g` | `153.33g` | `172.50g` | †`230.00g` |
 | Butter (Unsalted)              | `28.25g` | `56.50g` |  `75.33g` | `113.00g` | `150.67g` | `169.50g` | †`226.00g` |
 | Cinnamon (Ground)              | `15.60g` | `31.20g` |  `41.60g` |  `62.40g` |  `83.20g` |  `93.60g` |  `124.80g` |
@@ -84,7 +88,7 @@ Other equivalents:
 | Sour Cream                     | `30.00g` | `60.00g` |  `80.00g` | `120.00g` | `160.00g` | `180.00g` | †`240.00g` |
 | Sugar (Brown, Packed)          | `28.13g` | `56.25g` |  `75.00g` | `112.50g` | `150.00g` | `168.75g` | †`225.00g` |
 | Sugar (Granulated)             | `26.00g` | `52.00g` |  `69.33g` | `104.00g` | `138.67g` | `156.00g` |  `208.00g` |
-| Vanilla (Extract)              |          |          |           |           |           |           |            |
+| Vanilla (Extract)              | `26.00g` | `52.00g` |  `69.33g` | `104.00g` | `138.67g` | `156.00g` |  `208.00g` |
 | Walnuts (Chopped)              | `18.75g` | `37.50g` |  `50.00g` |  `75.00g` | `100.00g` | `112.50g` | †`150.00g` |
 | Yogurt                         | `30.00g` | `60.00g` |  `80.00g` | `120.00g` | `160.00g` | `180.00g` | †`240.00g` |
 
