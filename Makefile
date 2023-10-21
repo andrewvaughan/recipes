@@ -54,7 +54,7 @@ clean:
 .PHONY: dependencies
 
 
-dependencies: $(FLAG_DIR)/act $(FLAG_DIR)/ruby-$(RUBY_VERSION)
+dependencies: $(FLAG_DIR)/act
 
 
 $(FLAG_DIR)/act:
