@@ -51,9 +51,9 @@ _These ingredients make about 4-cups, or 32oz, of sauce._
 | :--------------------: | :-------------------------------- |
 |        1½ Cups         | Chicken Broth                     |
 |         1 Cup          | Soy Sauce                         |
-|     6 TBSP (⅜ Cup)     | Honey                             |
-|     6 TBSP (⅜ Cup)     | Sesame Oil                        |
-| 6 TBSP (⅜ Cup / ~195g) | Ginger, Fresh, Peeled, and Grated |
+|     6 TBSP (⅜ Cup / 127.5g)     | Honey                             |
+|     6 TBSP (⅜ Cup / 81.6g)     | Sesame Oil                        |
+| 100g | Ginger, Fresh, Peeled, and Grated |
 |  9 Cloves (1.5 TBSP)   | Garlic, Minced                    |
 |         3 TBSP         | Cornstarch                        |
 
