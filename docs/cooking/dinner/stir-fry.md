@@ -54,8 +54,8 @@ _These ingredients make about 4-cups, or 32oz, of sauce._
 |     6 TBSP (⅜ Cup / 127.5g)     | Honey                             |
 |     6 TBSP (⅜ Cup / 81.6g)     | Sesame Oil                        |
 | 100g | Ginger, Fresh, Peeled, and Grated |
-|  9 Cloves (1.5 TBSP)   | Garlic, Minced                    |
-|         3 TBSP         | Cornstarch                        |
+|  9 Cloves (1.5 TBSP / 28.5g)   | Garlic, Minced                    |
+|         3 TBSP / 23.7g         | Cornstarch                        |
 
 _Ginger is most-easily peeled with a spoon._
 
